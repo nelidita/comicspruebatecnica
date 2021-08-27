@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Comics - Prueba Técnica.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se trata de diseñar una interfaz sencilla consumiendo el API de xkcd [https://xkcd.com/json.html]
+mostrando en el navegador un comic aleatorio de xkcd, ademas permitir que el usuario califique el comic de forma interactiva.
 
 ## Available Scripts
 
