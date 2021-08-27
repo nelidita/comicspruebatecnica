@@ -2,7 +2,9 @@ import React from 'react';
 
 function Inicio() {
 
-
+fetch('http://localhost:5000/getData')
+.then(response => response.json())
+.then(data => console.log(data))
 
   
     return (
