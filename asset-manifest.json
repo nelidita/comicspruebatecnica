@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nelidita/comicspruebatecnica/tree/master/static/css/main.a7638b5b.chunk.css",
+    "main.js": "/nelidita/comicspruebatecnica/tree/master/static/js/main.542f9557.chunk.js",
+    "main.js.map": "/nelidita/comicspruebatecnica/tree/master/static/js/main.542f9557.chunk.js.map",
+    "runtime-main.js": "/nelidita/comicspruebatecnica/tree/master/static/js/runtime-main.8ba5e971.js",
+    "runtime-main.js.map": "/nelidita/comicspruebatecnica/tree/master/static/js/runtime-main.8ba5e971.js.map",
+    "static/js/2.007b680d.chunk.js": "/nelidita/comicspruebatecnica/tree/master/static/js/2.007b680d.chunk.js",
+    "static/js/2.007b680d.chunk.js.map": "/nelidita/comicspruebatecnica/tree/master/static/js/2.007b680d.chunk.js.map",
+    "static/js/3.7e61625c.chunk.js": "/nelidita/comicspruebatecnica/tree/master/static/js/3.7e61625c.chunk.js",
+    "static/js/3.7e61625c.chunk.js.map": "/nelidita/comicspruebatecnica/tree/master/static/js/3.7e61625c.chunk.js.map",
+    "index.html": "/nelidita/comicspruebatecnica/tree/master/index.html",
+    "static/css/main.a7638b5b.chunk.css.map": "/nelidita/comicspruebatecnica/tree/master/static/css/main.a7638b5b.chunk.css.map",
+    "static/js/2.007b680d.chunk.js.LICENSE.txt": "/nelidita/comicspruebatecnica/tree/master/static/js/2.007b680d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ba5e971.js",
+    "static/js/2.007b680d.chunk.js",
+    "static/css/main.a7638b5b.chunk.css",
+    "static/js/main.542f9557.chunk.js"
+  ]
+}
