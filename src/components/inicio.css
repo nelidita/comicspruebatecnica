@@ -1,0 +1,34 @@
+*{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+   background-color: honeydew;
+}
+
+.Inicio{
+    text-align: center;
+}
+
+.Inicio h1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.Inicio h2{
+    margin: 20px;
+    font-size:36px
+}
+.IconosCalificacion{
+    margin: 20px;
+}
+.IconosCalificacion img{
+    width: 80px;
+    margin: 10px;
+    cursor: pointer;
+}
+.IconosCalificacion :hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
