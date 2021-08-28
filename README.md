@@ -33,5 +33,5 @@ express y este hiciera la petición en vez de nuestra aplicación de frontend.
 
 Para esto salimos del directorio de nuestro proyecto y creamos una carpeta donde iniciamos con npm init
 instalamos express cors, creamos un archivo server.js y alli hacemos nuestra peticion con fetch en un puerto
-diferente al de nuestro proyecto frontend en nuest5ro caso configuramos nuestro puesto a 5000 en vez que al
+diferente al de nuestro proyecto frontend en nuestro caso configuramos nuestro puesto a 5000 en vez que al
 3000 que es el puerto por defecto de nuestra aplicacion frontend.
