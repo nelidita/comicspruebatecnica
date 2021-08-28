@@ -46,4 +46,4 @@ es donde configuramos el puerto en el servidor y finalmente levantamos el servid
 refrescar el navegador de nuestro proyecto de comics y pudimos ver el objeto con toda la informacion presentada en la
 API RES. 
 
-Esta parte del servidor se encuentra en: 
+
