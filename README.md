@@ -19,12 +19,12 @@ Por otro lado, se agregaron 3 íconos para que el usuario pueda calificar el com
 
 ## ¿Cuáles fueron los principales problemas encontrados?
 
-Cuando se llamó la API RES de https://xkcd.com/json.html¨, genero un error llamado CORS (Intercambio de 
+Cuando se llamó la API RES de https://xkcd.com/json.html, genero un error llamado CORS (Intercambio de 
 Recursos de Origen Cruzado), este tipo de error ocurre cuando se hace una solicitud de un dominio diferente 
 al que se encuentra la información.
 
 Por razones de seguridad, los exploradores restringen las solicitudes HTTP de origen cruzado iniciadas dentro
-de un script, mas información en: [https://developer.mozilla.org/es/docs/Web/HTTP/CORS]
+de un script, mas información en: https://developer.mozilla.org/es/docs/Web/HTTP/CORS
 
 ## Solucion a los problemas encontrados
 
