@@ -31,7 +31,19 @@ de un script, mas información en: https://developer.mozilla.org/es/docs/Web/HTT
 Para solucionar el error y poder acceder a la data, la opción era acceder desde el servidor haciendo uso de 
 express y este hiciera la petición en vez de nuestra aplicación de frontend.
 
-Para esto salimos del directorio de nuestro proyecto y creamos una carpeta donde iniciamos con npm init
-instalamos express cors, creamos un archivo server.js y alli hacemos nuestra peticion con fetch en un puerto
-diferente al de nuestro proyecto frontend en nuestro caso configuramos nuestro puesto a 5000 en vez que al
-3000 que es el puerto por defecto de nuestra aplicacion frontend.
+Para esto salimos del directorio de nuestro proyecto y creamos una carpeta donde iniciamos nuestro proyecto express 
+con npm init y con el comando npm install express node-fetch cors instalamos express y algunas dependencias,
+creamos un archivo server.js y alli hacemos nuestra peticion con fetch en un puerto diferente al de nuestro proyecto
+frontend en nuestro caso configuramos nuestro puesto a 5000 en vez que al 3000 que es el puerto por defecto de 
+nuestra aplicacion frontend.
+
+Luego configuramos que las solicitudes del localhost:3000 pueda acceder a la información del localhost:5000,
+entonces como la solicitud se realiza a través del servidor no genera el error CORS y se devuelve una respuesta 
+con el metodo json(). 
+
+En nuestro proyecto en vez de hacer la llamada a https://xkcd.com/json.html, hacemos la llamada a localhost:5000 que
+es donde configuramos el puerto en el servidor y finalmente levantamos el servidor express con node server.js para luego
+refrescar el navegador de nuestro proyecto de comics y pudimos ver el objeto con toda la informacion presentada en la
+API RES. 
+
+Esta parte del servidor se encuentra en: 
