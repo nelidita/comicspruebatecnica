@@ -44,6 +44,9 @@ con el metodo json().
 En nuestro proyecto en vez de hacer la llamada a https://xkcd.com/json.html, hacemos la llamada a localhost:5000 que
 es donde configuramos el puerto en el servidor y finalmente levantamos el servidor express con node server.js para luego
 refrescar el navegador de nuestro proyecto de comics y pudimos ver el objeto con toda la informacion presentada en la
-API RES. 
+API RES.
+
+En el siguiente repositorio se encuentra el proyecto con el servidor creado para el backend de este proyecto:
+https://github.com/nelidita/backendComics
 
 
