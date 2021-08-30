@@ -6,7 +6,7 @@ forma interactiva.
 
 ## ¿Cómo se construyó la solución?
 
-Este proyecto consiste en hacer un llamado a la API RES de xkcd para acceder a la data y poder mostrar en el
+Este proyecto consiste en hacer un llamado a la API REST de xkcd para acceder a la data y poder mostrar en el
 navegador el titulo y la imagen del comic alli dado.
 
 La solicitud se hace a traves de fetch con el uso de async-await para asi obtener un archivo json y procesar
@@ -44,7 +44,7 @@ con el metodo json().
 En nuestro proyecto en vez de hacer la llamada a https://xkcd.com/json.html, hacemos la llamada a localhost:5000 que
 es donde configuramos el puerto en el servidor y finalmente levantamos el servidor express con node server.js para luego
 refrescar el navegador de nuestro proyecto de comics y pudimos ver el objeto con toda la informacion presentada en la
-API RES.
+API REST.
 
 En el siguiente repositorio se encuentra el proyecto con el servidor creado para el backend de este proyecto:
 https://github.com/nelidita/backendComics
